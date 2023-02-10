@@ -1,0 +1,67 @@
+@import "font";
+@import "variable";
+.wrapper-3 {
+  .contact {
+    padding: 90px 5vw;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    background: #1b1a1a;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    font-family: "Oswald", sans-serif;
+    .text-box {
+      width: 100%;
+      padding-top: 5vw;
+      padding-right: 7.5vw;
+      padding-left: 7.5vw;
+      color: #fff;
+
+      margin-bottom: 15vh;
+
+      h2 {
+        font-size: 45px;
+        line-height: 100%;
+        margin: 0 0 15px 0;
+        span {
+          color: #c83d20;
+        }
+      }
+      h1 {
+        margin: 0;
+        margin-left: -0.8vw;
+        font-size: 15.5vw;
+        line-height: 100%;
+        &::first-letter {
+          color: #c83d20;
+        }
+      }
+    }
+    .subscribe {
+      width: 100%;
+      padding-right: 7.5vw;
+      padding-left: 7vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      span {
+        color: #fff;
+      }
+      input[type="text"] {
+        height: 76px;
+        margin: 0px;
+        padding: 0px 70px 0px 25px;
+        border: 1px none #000;
+        background-color: #2d2c2c;
+        color: #fff;
+        font-size: 18px;
+        line-height: 100%;
+        width: 50%;
+        box-sizing: border-box;
+        outline: none;
+      }
+    }
+  }
+}
